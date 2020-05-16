@@ -1,0 +1,2 @@
+rootProject.name='playandroid'
+include ':app', ':commonlibrary', ':FlycoDialog_Lib'

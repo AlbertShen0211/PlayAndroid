@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="color_FAFAFA">#FAFAFA</color>
+    <color name="button_bkg">#2BC345</color>
+    <color name="color_808080">#808080</color>
+    <color name="black">#000000</color>
+    <color name="bkg">#f7f7f7</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_3AA1EC">#3AA1EC</color>
+    <color name="color_4D4D4D">#4D4D4D</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_CCCCCC">#CCCCCC</color>
+    <color name="color_0172C2">#0172C2</color>
+    <color name="color_4C4C4C">#4C4C4C</color>
+    <color name="color_2BC345">#2BC345</color>
+    <color name="color_BFBFBF">#BFBFBF</color>
+    <color name="color_DBDBDB">#DBDBDB</color>
+</resources>

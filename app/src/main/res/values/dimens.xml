@@ -1,0 +1,37 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="button_font">15sp</dimen>
+    <dimen name="tv_font">14sp</dimen>
+    <dimen name="dp_15">15dp</dimen>
+    <dimen name="dp_55">55dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="sp_13">13sp</dimen>
+    <dimen name="dp_137">137dp</dimen>
+    <dimen name="dp_222">222dp</dimen>
+    <dimen name="dp_150">150dp</dimen>
+    <dimen name="sp_20">20sp</dimen>
+    <dimen name="dp_30">30dp</dimen>
+    <dimen name="sp_12">12sp</dimen>
+    <dimen name="sp_16">16sp</dimen>
+    <dimen name="toolbar_height">44dp</dimen>
+    <dimen name="sp_14">14sp</dimen>
+    <dimen name="dp_43">43dp</dimen>
+    <dimen name="dp_37">37dp</dimen>
+    <dimen name="dp_320">320dp</dimen>
+    <dimen name="dp_158">158dp</dimen>
+    <dimen name="dp_38">38dp</dimen>
+    <dimen name="dp_1">1dp</dimen>
+    <dimen name="dp_45">45dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="dp_127">127dp</dimen>
+    <dimen name="dp_130">130dp</dimen>
+    <dimen name="dp_530">530dp</dimen>
+    <dimen name="dp_60">60dp</dimen>
+    <dimen name="dp_262">262dp</dimen>
+    <dimen name="dp_263">263dp</dimen>
+    <dimen name="dp_202">202dp</dimen>
+    <dimen name="dp_323">323dp</dimen>
+    <dimen name="dp_344">344dp</dimen>
+</resources>

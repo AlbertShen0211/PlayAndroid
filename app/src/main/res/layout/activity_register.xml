@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:binding="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.android.playandroid.viewmodel.LoginViewModel" />
+    </data>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bkg"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/title_layout"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/et_userName"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_55"
+            android:layout_marginTop="90dp"
+            android:background="@color/white"
+            android:cursorVisible="true"
+            android:hint="@string/user_name"
+            android:paddingLeft="@dimen/dp_15"
+            android:textCursorDrawable="@null"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.084" />
+
+
+        <com.android.playandroid.view.CustomEditText
+            android:id="@+id/et_reg_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_55"
+            android:layout_marginTop="160dp"
+            android:background="@color/white"
+            android:cursorVisible="true"
+            android:hint="@string/pwd_hint"
+            android:inputType="textPassword"
+            android:paddingLeft="@dimen/dp_15"
+            android:textCursorDrawable="@null"
+            app:clearButtonMode="never"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.235"
+            app:useLookPwdDrawable="true" />
+
+        <TextView
+            android:id="@+id/tv_log_way"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_222"
+            android:paddingLeft="@dimen/dp_15"
+            android:text="@string/login_way"
+            android:textColor="@color/color_999999"
+            android:textSize="@dimen/sp_13"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.315" />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_55"
+            android:layout_marginTop="247dp"
+            android:background="@color/white"
+            android:cursorVisible="true"
+            android:hint="@string/email_hint"
+            android:paddingLeft="@dimen/dp_15"
+            android:textCursorDrawable="@null"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.37" />
+
+        <TextView
+            android:id="@+id/tv_alias_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="310dp"
+            android:paddingLeft="@dimen/dp_15"
+            android:text="@string/alias_fun"
+            android:textColor="@color/color_999999"
+            android:textSize="@dimen/sp_13"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.439" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_55"
+            android:layout_marginTop="334dp"
+            android:background="@color/white"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.506">
+
+            <EditText
+                android:id="@+id/et_verify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@color/white"
+                android:cursorVisible="true"
+                android:hint="@string/verify"
+                android:paddingLeft="@dimen/dp_15"
+                android:textCursorDrawable="@null" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_string_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="398dp"
+            android:paddingLeft="@dimen/dp_15"
+            android:text="@string/pic_string_tip"
+            android:textColor="@color/color_999999"
+            android:textSize="@dimen/sp_13"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.57" />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_15"
+            android:layout_marginTop="460dp"
+            android:layout_marginRight="@dimen/dp_15"
+            android:background="@color/button_bkg"
+            android:text="@string/register"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/button_font"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.631" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="525dp"
+            android:orientation="horizontal"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.73">
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="@string/agree"
+                android:textColor="@color/color_808080"
+                android:textSize="@dimen/sp_14"
+                app:theme="@style/checkBox1" />
+
+            <TextView
+                android:id="@+id/tv_service_agree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/service_network"
+                android:textColor="@color/color_0172C2"
+                android:textSize="@dimen/sp_14" />
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">playandroid</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <string name="user_name_hint">邮箱</string>
+    <string name="new_change_mail">输入新的换绑邮箱</string>
+    <string name="login_pwd">ChaseDream登录密码</string>
+    <string name="pwd_hint">密码</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="account">账号</string>
+    <string name="modify_mail">更改绑定邮箱</string>
+    <string name="tip">提示</string>
+    <string name="run_a_run">先逛一逛</string>
+    <string name="email_hint">Email</string>
+    <string name="user_name">用户名</string>
+    <string name="verify">验证码</string>
+    <string name="login_way">用户名和登录密码将成为您的登录方式</string>
+    <string name="alias_fun">用户名会显示</string>
+    <string name="pic_string_tip">请输入图片中的字符</string>
+    <string name="agree_contract">同意网站服务条款</string>
+    <string name="sendtomail">发送到您的邮箱中</string>
+    <string name="agree">同意</string>
+    <string name="service_network">网站服务条款</string>
+    <string name="bind_mail">绑定邮箱</string>
+    <string name="status">状态</string>
+    <string name="activitied">已激活</string>
+    <string name="change_bind_mail">换绑邮箱</string>
+    <string name="wait_verifying">等待验证中</string>
+    <string name="resent_email">重发验证邮件</string>
+    <string name="modify_email">更改</string>
+    <string name="modify_change_bind_mail">修改换绑邮箱</string>
+    <string name="cancel_change_bind">取消换绑</string>
+    <string name="donotclose">请先不要关闭本页面！</string>
+    <string name="never_received">始终无法收到我们发出的验证邮件？</string>
+    <string name="send_to_change_mail">我们发出了一封验证邮件到您的换绑邮箱中。</string>
+    <string name="send_to_active_mail">您可以使用您注册ChaseDream使用的Email，给我们发一封邮件请求手工激活。</string>
+    <string name="many_limit">在完成验证之前，您的帐号会受到很多限制。</string>
+    <string name="try_another_step">没收到邮件？尝试下面的步骤：</string>
+    <string name="mail_as_format">发送格式如下：</string>
+    <string name="check_mail">网络延时？稍等2分钟，再检查收件箱</string>
+    <string name="spam">被邮箱归类垃圾邮件？在邮箱的垃圾邮件(Spam)</string>
+    <string name="look">里翻翻看</string>
+    <string name="check_addr">Email地址填错了？检查一下：</string>
+    <string name="modify_email_addr">修改Email地址</string>
+    <string name="not_receiverd_try">还是没有收到？试试</string>
+    <string name="still_not_received">上面全试过了，仍然收不到？</string>
+    <string name="contact_support">联系技术支持</string>
+    <string name="finished_verify">已完成验证</string>
+    <string name="sender">发件人</string>
+    <string name="register_mail">您注册所用的Email</string>
+    <string name="receiver">收件人</string>
+    <string name="mail">support@chasedream.com</string>
+    <string name="theme">主题</string>
+    <string name="active_user_name">【帐号激活】 用户名</string>
+    <string name="mail_content">邮件正文</string>
+    <string name="username_addr">用户名 + 注册所用Email地址</string>
+    <string name="verifyrequest_24">在收到请求后，我们会验证请求，并在24小时内帮您处理。</string>
+    <string name="modified_mail">修改后Email地址</string>
+    <string name="cancel">取消</string>
+    <string name="yes">确定</string>
+    <string name="right_mail">请输入正确的邮箱格式</string>
+    <string name="input">请输入密码</string>
+    <string name="right_password">请输入正确的密码</string>
+    <string name="service_agree">请先同意网站服务条款</string>
+    <string name="agree_service_1">请同意网站服务条款</string>
+    <string name="input_user">请输入正确的用户名</string>
+    <string name="input_verify">请输入正确的验证码</string>
+
+
+
+    <string name="network_error">当前无网络，请检查你的网络设置</string>
+    <string name="notify_no_network">网络连接不可用，请稍后重试！</string>
+    <string name="esky_service_exception">网络不给力，请稍候重试！</string>
+    <string name="time_out_please_try_again_later">连接超时,请稍后再试</string>
+</resources>
