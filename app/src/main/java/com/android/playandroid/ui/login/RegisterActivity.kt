@@ -27,7 +27,7 @@ class RegisterActivity : BaseVMActivity<LoginViewModel>() {
         mBinding.root.toolbar.setNavigationIcon(R.mipmap.register_close)
         mBinding.root.toolbar.setMyCenterTitle(getString(R.string.register), true)
         mBinding.root.toolbar.setMySettingText(getString(R.string.login))
-        Timber.e("RegisterActivity")
+
     }
 
     override fun initData() {
