@@ -28,10 +28,7 @@ class RegisterActivity : BaseVMActivity<LoginViewModel>() {
         mBinding.root.toolbar.setMyCenterTitle(getString(R.string.register), true)
         mBinding.root.toolbar.setMySettingText(getString(R.string.login))
 
-        Timber.e("RegisterActivity")
-        Timber.e("RegisterAwctivity222")
-        Timber.e("RegisterAwctidvitywwww")
-        Timber.e("RegisterAcdtivity22")
+
 
     }
 
