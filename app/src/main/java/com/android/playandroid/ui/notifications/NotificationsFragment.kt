@@ -26,7 +26,6 @@ class NotificationsFragment : Fragment() {
         val textView: TextView = root.findViewById(R.id.text_notifications)
         notificationsViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
-            caffff
         })
         return root
     }
