@@ -28,6 +28,8 @@ class RegisterActivity : BaseVMActivity<LoginViewModel>() {
         mBinding.root.toolbar.setMyCenterTitle(getString(R.string.register), true)
         mBinding.root.toolbar.setMySettingText(getString(R.string.login))
 
+
+
     }
 
     override fun initData() {
