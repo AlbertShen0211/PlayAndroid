@@ -7,9 +7,11 @@
     <com.util.ktx.view.CustomToolBar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="?actionBarSize"
+        android:layout_height="@dimen/toolbar_height"
         android:background="@android:color/white"
+        android:minHeight="@dimen/toolbar_height"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:navigationIcon="@mipmap/navigationbar_back_highlighted"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
         app:titleTextColor="@android:color/black" />
 

@@ -69,7 +69,7 @@ public class CustomToolBar extends Toolbar {
             this.mLeftText.setSingleLine();
 //            this.mLeftText.setEllipsize(TextUtils.TruncateAt.END);
             setLeftTextAppearance(getContext(), R.style.TextAppearance_TitleBar_subTitle);
-            //textView in left
+            //textView in left  values
 //            this.addMyView(this.mLeftText, Gravity.START);
             int i = dp2px(this, 16);
             this.addMyView(this.mLeftText, Gravity.START, 0, 0, i, 0, 48);

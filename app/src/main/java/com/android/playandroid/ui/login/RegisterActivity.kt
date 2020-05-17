@@ -1,4 +1,4 @@
-package com.android.playandroid.login
+package com.android.playandroid.ui.login
 
 import com.android.framework.ext.click
 import com.android.framework.ext.toast
