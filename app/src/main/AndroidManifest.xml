@@ -25,7 +25,7 @@
             android:name="notch.config"
             android:value="portrait|landscape" />
         <activity
-            android:name="com.android.playandroid.ui.login.RegisterActivity"
+            android:name=".ui.login.RegisterActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
