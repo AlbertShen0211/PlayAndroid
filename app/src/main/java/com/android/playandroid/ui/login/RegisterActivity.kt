@@ -1,6 +1,7 @@
 package com.android.playandroid.ui.login
 
 import com.android.framework.ext.click
+import com.android.framework.ext.start
 import com.android.framework.ext.toast
 import com.android.playandroid.R
 import com.android.playandroid.databinding.ActivityRegisterBinding
@@ -38,7 +39,7 @@ class RegisterActivity : BaseVMActivity<LoginViewModel>() {
 
 
         mBinding.root.toolbar.setSettingTextOnClickListener {
-            // start<LoginActivity>()
+             start<LoginActivity>()
         }
 
         mBinding.root.btn_register.click {

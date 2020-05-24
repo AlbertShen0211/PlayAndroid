@@ -25,7 +25,7 @@ import com.android.playandroid.R;
 import static com.util.ktx.ext.CommonExtKt.dp2px;
 
 /**
- * 自定义toolbar
+ * 自定义toolbar  \view\CustomToolBar.java
  */
 public class CustomToolBar extends Toolbar {
     private TextView mCenterTitle;//中心标题
